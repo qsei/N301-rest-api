@@ -1,7 +1,9 @@
+server:
+  port: 8080
 spring:
   datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://127.0.0.1:1433;encrypt=true;trustServerCertificate=true;databaseName=N301
+    url: jdbc:sqlserver://127.0.0.1:1434;encrypt=true;trustServerCertificate=true;databaseName=N301
     username: sa
     password: MSsql__123
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
